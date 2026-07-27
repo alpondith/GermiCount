@@ -29,7 +29,7 @@ The dataset contains bounding box annotations and image samples categorized into
 ### Specifications
 - **Image Format**: JPG / PNG
 - **Image Resolution**: $624 \times 624$ pixels
-- **Annotation Format**: YOLO bounding box format (`<class_id> <x_center> <y_center> <width> <height>`)
+- **Annotation Format**: YOLO bounding box format
 
 ### Dataset Splits
 
@@ -54,19 +54,4 @@ The dataset contains bounding box annotations and image samples categorized into
 
 ## 📥 How to Download
 
-### Option 1: Using `kagglehub` (Python)
-```python
-import kagglehub
-
-# Download latest version of the dataset
-path = kagglehub.dataset_download("shajinrp/germinated-and-non-germinated-seed")
-print("Path to dataset files:", path)
-```
-
-### Option 2: Using Kaggle CLI
-```bash
-kaggle datasets download -d shajinrp/germinated-and-non-germinated-seed --unzip
-```
-
-### Option 3: Manual Download
 Visit the Kaggle dataset page: [Kaggle Dataset Link](https://www.kaggle.com/datasets/shajinrp/germinated-and-non-germinated-seed/data) and click **Download**.
